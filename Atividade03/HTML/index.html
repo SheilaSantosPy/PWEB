@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/CSS/index.css" rel="stylesheet">
+    <title>Segurança Web</title>
+</head>
+<body>
+
+    <nav>
+        <ul>
+          <a href="#">Página inicial</a>
+          <a href="#">Sobre</a>
+          <a href="#">Contato</a>
+        </ul>
+      </nav>
+
+    <h1> Segurança Web: Funcionamento e curiosidades </h1> 
+      <br>
+      <div class="">
+        <img id="Image1" src="/images/segurançaWeb/cartilha-seguranca-1440x564_c.jpg"/>
+            <p class="sub">
+                https://static.cryptoid.com.br/wp-content/uploads/2015/06/cartilha-seguranca-1440x564_c.jpg
+            </p>
+      </div>     
+
+      <div>
+            <p> Redefinir senhas frequentemente, bloquear dispositivos, e manter o software atualizado são medidas de segurança bastante comuns. 
+                Porém, a segurança de uma aplicação pode, muitas vezes, ser um elemento ignorado e vulnerável.
+            </p>  
+
+            <P> As aplicações web têm grandes chances de sofrer ameaças desencadeadas por vários fatores, como falhas de sistema devido à codificação incorreta,
+                servidores web mal configurados e problemas no design da aplicação.
+            </P>  
+
+            <p> As brechas no código ou sistema operacional de uma aplicação podem ser aproveitadas por cibercriminosos para obter acesso a bancos de dados, servidores e outros dados sensíveis. Os hackers se aproveitam da sensibilidade dos dados expostos e lançam ataques de ransomware ou outras formas de fraudes online.
+                Considerando que 43% das violações de dados são causadas por vulnerabilidades em aplicações web, adotar as melhores práticas e ferramentas adequadas é um passo fundamental para reduzir os riscos e aumentar a segurança desses aplicativos.
+                Neste guia, explicamos o que é segurança web, como ela funciona e quais ferramentas podem ser usadas para proteger a sua aplicação web.
+            </p> 
+
+        <h2>O que é Segurança Web?</h2>
+            
+            <p>Como uma área de cibersegurança, a segurança web se concentra em proteger sites, aplicativos baseados na internet e serviços online contra uma variedade
+                de ataques maliciosos. Deste modo, ela serve para garantir o bom funcionamento e desempenho dos sites.
+            </p>
+
+        <h3>As Vulnerabilidades Mais Comuns em Aplicações Web</h3>
+        
+            <p> As vulnerabilidades das aplicações web permitem que fatores maliciosos tenham controle não autorizado sobre o código-fonte, manipulem informações privadas ou
+                interrompam o bom funcionamento da aplicação. 
+            </p>
+
+            <p>
+                A ONG internacional dedicada à segurança de aplicação web, OWASP, revelou os 10 maiores riscos de segurança nas camadas de aplicações web. Vamos dar uma olhada em alguns dos
+                ataques mais comuns contra aplicativos do tipo.
+            </p>
+
+        <h3> Injeção de SQL </h3>
+            <p>
+                Este tipo de falha permite que um cibercriminoso adultere uma consulta no banco de dados da aplicação através da injeção de um código. Na maioria dos ataques, os hackers conseguem acessar
+                dados protegidos de usuários ou até mesmo da aplicação, como senhas, informações de cartão de crédito e cookies.
+            </p>
+
+            <p> 
+                Quando um ataque de injeção de SQL dá errado, o cibercriminoso pode tentar lançar um ataque de negação de serviço ou comprometer o servidor web base. Ele pode até mesmo acabar comprometendo
+                outra infraestrutura de back-end.
+            </p>   
+
+        <h3>Ataque Cross-site Scripting (XSS)</h3>
+
+            <p>
+                Essa é uma técnica bastante usada para executar o código, geralmente JavaScript, no site ou aplicativo-alvo. Um ataque de cross-site scripting bem-sucedido concede aos hackers acesso total à aplicação. 
+            </p>
+
+            <p>
+                Um exemplo de ataque XSS é quando um hacker explora a vulnerabilidade de um campo de entrada para injetar um código malicioso em outro site.
+            </p>
+
+            <p>
+                Assim que as vítimas clicam no link infectado, os hackers passam a ter total controle sobre tudo o que acontece. O principal motivo pelo qual o XSS é considerado uma falha de segurança de alto risco é que ela permite que um cibercriminoso visualizae os dados armazenados em LocalStorage, SessionStorage ou cookies no sistema-alvo.
+            </p>
+
+            <p>
+                Por isso, nenhum dado pessoal deve ser armazenado nesses sistemas.
+            </p>
+        <h3>Cross-site Request Forgery (CSRF)</h3>
+
+            <p>
+                Um ataque CSRF — em português, ataque de falsificação de solicitação entre sites — aplica técnicas de engenharia social para convencer o usuário a modificar os dados da aplicação, como o nome de usuário ou senha. Esse tipo de ataque requer uma aplicação que usa sessões de cookies apenas para identificar o usuário que faz uma solicitação. Depois, esses cookies são utilizados para rastrear ou validar as solicitações do usuário.
+            </p>
+            <p>
+                Dependendo da ação que usuário é forçado a realizar, o cibercriminoso pode roubar dinheiro, contas ou realizar outros ataques de aplicação web.
+            </p>
+        <h3>Ataque de Preenchimento de Credenciais</h3>
+
+            <p>
+                Os hackers usam nomes de usuários, e-mails e senhas de lixeiras públicas da dark web para invadir e assumir as contas dos usuários. Os dados ilegais podem conter milhões de nomes de usuários e combinações de senhas, devido aos anos de violações de dados em diversos sites.
+            </p>
+
+            <p>
+                Isso nos mostra que até mesmo dados antigos são valiosos para esses cibercriminosos.
+            </p>
+
+            <p> 
+                O preenchimento de credenciais é altamente perigoso, especialmente para a área financeira e bancária. O preenchimento de credenciais financeiras dão acesso total às contas bancárias e informações de transações, permitindo que o hacker peça empréstimo, use cartões de crédito ou faça transferências bancárias no nome do usuário.
+            </p>
+
+        <h3> Falsa Criação de Conta </h3>    
+
+            <p>       
+                Geralmente, muitas empresas incentivam a criação de contas para acompanhar o comportamento dos seus clientes e compartilhar as promoções e ofertas mais recentes. Isso faz com que a inscrição rápida e simples seja um elemento importante para a empresa, mas a segurança pode ser negligenciada.
+            </p>
+
+            <p>
+                Portanto, isso torna ainda mais fácil para os cibercriminosos criarem contas falsas como se fossem clientes verdadeiros e legítimos.
+            </p>
+
+            <p>
+                Os hackers podem criar um número significativo de contas que não sejam de uma pessoa real ou que foram criadas usando informações de pessoais roubadas. Essas contas falsas podem ser usadas para disfarçar as práticas de preenchimento de credenciais, para aproveitar as ofertas exclusivas de clientes ou para autenticar cartões de créditos roubados.
+            </p>
+
+            <p>
+                Ataques de criação de contas falsas estão cada vez mais difíceis de detectar e evitar, já que os hackers estão sempre buscando novas formas de falsificar ou roubar identidades.
+            </p>
+
+        <h3>Má Configuração de Segurança</h3>
+
+            <p>
+                Outra vulnerabilidade de aplicações web de alto risco é a má configuração de segurança. Ela permite que hackers assumam, com facilidade, o controle de sites. Os cibercriminosos podem tirar proveito de uma variedade de vulnerabilidades e erros de configuração, como páginas não utilizadas, vulnerabilidades não corrigidas, arquivos e diretórios não seguros e configurações padrões.
+            </p>
+
+            <p>
+                Elementos como servidores de aplicação web, bancos de dados ou serviços de rede podem ter os seus dados mais suscetíveis a violações. Com esses dados, os hackers conseguem manipular qualquer informação privada e assumir o controle de contas de usuários e administradores.
+            </p>
+
+        <h3>Falha na Autorização</h3>
+
+            <p> 
+                Os visitantes de uma aplicação ou de um site só conseguem acessar determinadas partes dele se tiverem permissão necessária — isso se deve aos controles de acesso.
+            </p>
+
+            <p>
+                Por exemplo, vamos supor que você administra um site que permite que diferentes vendedores anunciem produtos nele. Nesse caso, você precisa conceder acesso a eles para conseguirem adicionar novos produtos e gerenciar suas vendas.
+            </p>
+
+            <p>
+                Portanto, existem algumas limitações para clientes (não-vendedores) que podem ser exploradas pelos hackers. Eles podem encontrar maneiras de comprometer o controle de acesso e liberar dados não autorizados como resultado da modificação das permissões e dos arquivos de acesso dos usuários.
+            </p>
+
+        <h3>Local File Inclusion (LFI)</h3>
+            
+            <p>
+                LFI, ou Inclusão de Arquivo Local, em português, é uma vulnerabilidade muito encontrada em aplicações web mal desenvolvidas. Ela permite que um hacker inclua ou exponha arquivos em um servidor. 
+            </p>
+
+            <p>
+                Caso a aplicação web execute o arquivo, ele pode ser exposto a dados sensíveis ou até mesmo executar códigos maliciosos.
+            </p>
+    </div>
+
+    <h2>Como Funciona a Segurança de Aplicação Web?</h2>
+
+        <div>
+            <img id="Image2" src="/images/AplicaçãoWeb/seguranca-web.jpg" alt="Computador com selo de seguranca-web">
+           
+            <p class="sub">
+                https://www.hostinger.com.br/tutoriais/wp-content/uploads/sites/12/2022/05/seguranca-web.jpg
+            </p>
+        </div>
+      
+        <p>
+            Além de preservar a tecnologia e os recursos utilizados no desenvolvimento de aplicativos, 
+            a segurança das aplicações web também estabelece um alto nível de proteção em relação aos servidores e processos da internet.
+            Ela também protege os serviços web — como APIs — contra ameaças online.
+        </p>
+
+        <p>
+            O aspecto crítico da segurança de aplicação web é garantir que as aplicações funcionem sempre de forma segura e estável.
+            Para alcançar esse objetivo, você pode começar com uma análise cuidadosa dos testes de segurança.
+        </p>
+
+        <p>
+            Os testes de segurança servem para identificar e corrigir todas as vulnerabilidades antes que os hackers possam explorá-las. Por isso,
+            é altamente recomendado realizar testes de segurança de aplicação web durante os estágios de SDLC (Ciclo de Vida de Desenvolvimento de Software), e não após o lançamento da aplicação.
+        </p>
+        
+        <p>
+            Os testes de segurança servem para identificar e corrigir todas as vulnerabilidades antes que os hackers possam explorá-las. Por isso, é altamente recomendado realizar testes de segurança
+            de aplicação web durante os estágios de SDLC (Ciclo de Vida de Desenvolvimento de Software), e não após o lançamento da aplicação.
+        </p>
+
+    <h3>Realize uma Auditoria de Segurança Completa</h3>
+        <!--
+        <div>
+            <img id="Image3" src="/images/auditoria/auditoriaWeb.jpg" alt="Lupa apoiada sobre um teclado">
+            <p class="sub">
+                https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9_bmJEmWPk5pQaHErUAefd57JlUNsRsrvjAfpKvIp9GoH5IytIAPD9GI7NxQbQFZcML0&usqp=CAU
+            </p>
+        </div>
+        -->
+        <p>
+            Auditorias de seguranças regulares são uma excelente forma de garantir que você esteja seguindo as melhores práticas para proteger a sua aplicação web. Elas vão encontrar rapidamente as
+            potenciais vulnerabilidades nos seus sistemas.
+        </p>
+
+        <p>
+            Uma auditoria de segurança não só ajuda você a saber das potenciais vulnerabilidades da sua aplicação, como também protege o seu negócio.
+        </p>
+
+        <p>
+            Para ter uma perspectiva completa e objetiva do seu processo de auditoria de segurança, recomenda-se contratar um profissional especializado. Com a vasta experiência e conhecimento,
+            o profissional será crucial para identificar e reduzir as vulnerabilidades que requerem gerenciamento ou outras correções.
+        </p>
+
+        <p>
+            Concluída a avaliação de segurança, o próximo passo é apontar todas as vulnerabilidades encontradas. Uma ótima forma de fazer isso é definir prioridades com base no nível de impacto de cada tipo de vulnerabilidade.
+        </p>
+
+        <p>
+            Certifique-se de realizar varreduras e atualizações regulares de vulnerabilidade. Para tornar as coisas mais eficientes, em vez de escanear todos os tipos de vulnerabilidades, realize testes de segurança de aplicações
+            web usando seus scanners de vulnerabilidade.
+        </p>
+        
+        <p>
+            Procure por grandes ataques de injeção, tais como injeção SQL, cross-site scripting e ataques DDoS.
+        </p>
+    
+        <p>
+            Além disso, lembre-se de verificar se todos os servidores que hospedam as suas aplicações web estão atualizados com os mais recentes patches de segurança.
+        </p>
+
+    <h3>Criptografar Todos os seus Dados</h3>
+
+        <div>
+            <img id="Image4" src="/images/Criptografia/The_Ultimate_Guide_to_Data_Encryption-01.webp" alt="Exemplo de criptografia">
+            <p class="sub">
+                https://signal.avg.com/hs-fs/hubfs/Blog_Content/Avg/Signal/AVG%20Signal%20Images/What%20is%20Data%20Encryption%20and%20How%20Does%20it%20Work/The_Ultimate_Guide_to_Data_Encryption-01.png?width=624&name=The_Ultimate_Guide_to_Data_Encryption-01.png
+            </p>
+        </div>
+        
+        <p>
+            Quando alguém usa a sua aplicação web, a pessoa pode revelar informações sensíveis. Essas informações não devem ser acessadas por pessoas não autorizadas.
+        </p>
+
+        <p>
+            Por isso, é fundamental garantir que sua aplicação web forneça criptografia de dados durante o trânsito e enquanto está em repouso. É aqui que a criptografia SSL/TLS desempenha seu papel crucial.
+        </p>
+        
+        <p>
+            Quando você usa criptografia SSL/TLS, você utiliza uma versão mais segura do protocolo HTTP, o HTTPS. Através dele, você protege todas as comunicações do seu site com os seus visitantes.
+        </p>
+
+        <p>
+            Sem as conexões criptografadas pelo SSL, tanto os sites quanto as aplicações têm criptografia fraca, que pode prejudicar a sessão de gerenciamento e todo o sistema de segurança. Veja as diferenças e semelhanças do HTTP e HTTPS,
+            e como ter um SSL no seu site pode ajudar a protegê-lo.
+        </p>
+
+        <p>
+            Ao implementar as medidas de segurança, como o protocolo HTTPS, você está construindo uma presença online melhor e melhorando o desempenho SEO do seu site.
+        </p>
+
+    <h3>Monitore em Tempo Real a Segurança das Aplicações Web</h3>
+        
+        <div>
+            <img id="Image5" src="/images/Waf/download.png" alt="Exemplo simplificado de WAF">
+        </div>
+
+        <p>
+            Para garantir que sua aplicação esteja protegida 24 horas por dia, 7 dias por semana, você precisa de mais do que apenas uma verificação de segurança para identificar e corrigir todas as suas vulnerabilidades.
+            É aqui que o Web Application Firewalls (WAF) entra.
+        </p>
+
+        <p>
+            Um WAF monitora em tempo real todos os aspectos relacionados à segurança da sua aplicação web como, por exemplo, o gerenciamento de sessões. Isso significa que ele bloqueia, em tempo real,
+            possíveis ataques às camadas de aplicação, tais como os DDoS, injeção de SQL, XSS e CSRF.
+        </p>
+
+    <h3>Implemente Boas Práticas de Log</h3>    
+        
+        <div>
+            <img id="Image6" src="/images/Log/archivo-log.jpeg" alt="Exemplo de um sistema Log">
+            <p class="sub">
+                https://www.sonoradecrear.com/wp-content/uploads/2021/07/archivo-log.jpeg
+            </p>
+        </div>
+
+        <p>
+            Os scanners e firewalls das aplicações web podem não detectar todas as falhas de segurança no início. Em razão disso, uma das abordagens a serem adotadas é a de boas práticas para escrita de logs.
+        </p>
+
+        <p>
+            Um log claro e detalhado pode fornecer registros precisos sobre o que ocorreu em determinado momento, como tudo aconteceu e o que mais estava acontecendo no mesmo período.
+        </p>
+
+        <p>
+            Ferramentas como Retrace, Logstash ou Graylog podem ajudar a coletar informações sobre os erros que ocorrem em suas aplicações web. Os logs ajudam a identificar a origem de
+            uma falha e, eventualmente, o agente da ameaça.
+        </p>
+
+    <footer>
+        <p>
+            Bibliografia: https://www.hostinger.com.br/tutoriais/seguranca-web
+        </p>
+    </footer>
+   
+</body>
+</html>
