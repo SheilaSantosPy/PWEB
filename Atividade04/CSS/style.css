@@ -1,0 +1,144 @@
+
+* {
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+   line-height: 25px ;
+}
+
+:root {
+    --cor-fundo: rgb(34, 41, 37);
+    --cor-hover: rgba(238, 23, 23, 0.949);
+    --cor-primaria: rgb(231, 241, 236);
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header{
+    text-align: right;
+    font-size: 20px;
+    padding-right: 0px;
+}
+
+
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    cursor: pointer;
+    
+}
+
+.menu ul {
+    background-color: var(--cor-fundo);
+}
+
+.menu ul li {
+    display: inline;
+    position: relative;
+}
+
+.menu ul li a {
+    color: var(--cor-primaria);
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    transition: background .3s;
+}
+
+.menu ul li a:hover {
+    background-color: var(--cor-hover);
+    
+}
+
+
+.menu ul ul {
+    display: none;
+    left: 0px;
+    position: absolute;
+}
+
+.menu ul li:hover ul {
+    display: block;
+}
+
+.menu ul ul {
+    width: 150px
+}
+
+.menu ul ul li a {
+    display: block;
+}
+
+section {
+    border: 15px solid rgb(236, 235, 245);
+    border-radius: 2.5px;
+    padding: 25px 25px;
+    text-align: justify;
+    margin: 15px 0;
+
+    padding-right: 250px;
+    padding-left: 350px;
+}
+
+/* Images */
+
+#parasite {
+    width: 250px;
+    height: auto;
+}
+
+#others {
+    width: 350px;
+    height: auto;
+}
+
+#anabelle {
+    width: 650px;
+    height: auto;
+}
+
+#atv {
+    width: 450px;
+    height: auto;
+}
+
+#doce {
+    width: 450px;
+    height: auto;
+}
+
+#hotel {
+    width: 550px;
+    height: auto;
+}
+
+#exorcista {
+    width: 550px;
+    height: auto;
+}
+
+#psico {
+    width: 550px;
+    height: auto;
+}
+
+#hered {
+    width: 550px;
+    height: auto;
+}
+
+#us {
+    width: 550px;
+    height: auto;
+}
+
+#footer {
+    background-color: rgba(238, 23, 23, 0.949);
+    text-align: center;
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 2.5px;
+}
+
