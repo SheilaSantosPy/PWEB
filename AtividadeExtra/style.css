@@ -1,0 +1,48 @@
+@media only screen and (max-width: 1920px) {
+    div {
+      height: 200px;
+      width: 200px;
+      background-color: yellow;
+    }
+  }
+
+  @media only screen and (max-width: 1366px) {
+    div {
+      height: 200px;
+      width: 200px;
+      background-color: purple;
+    }
+  }
+
+  
+@media only screen and (max-width: 1080px) {
+  div {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  div {
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  div {
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  div {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(114, 110, 110);
+  }
+}
