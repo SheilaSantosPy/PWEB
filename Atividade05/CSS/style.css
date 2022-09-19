@@ -1,0 +1,145 @@
+
+:root {
+
+    --cor-houver: #FFEBD1;
+    --cor-primaria: #33332E ;
+    --cor-secundaria:#8C8C7E ;
+    --cor-titulo: #570182;
+
+    background-color:#FFFFFF;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo {
+    color: var(--cor-titulo);
+    font-size: 20px;
+    padding-left: 110px;
+    border-bottom: 0.1px solid #EB78D3;
+    padding-top: 1px;
+}
+
+.sub{
+    font-size: 14px;
+}
+
+.title {
+    padding-top: 20px;
+}
+
+section {
+    color: var(--cor-primaria);
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    line-height: 25px;
+    padding-left: 410px;
+    padding-right: 450px;
+    text-align: justify;
+    display: flexbox;
+}
+
+#depo-sheila {
+    border: 0.5px solid #f2a3e1;
+    padding: 25px 35px;
+    float: left;
+    box-shadow: 1px 0.5px 1px 1px #fab1ea;
+}
+
+#sheila {
+    font-size: 12px;
+}
+
+#depoimento {
+    display: inline;
+    width: 750px;
+    float: right;
+}
+
+aside {
+    width: 20%;
+    height: 55%;
+    position: absolute;
+    right: 0.1px; top: 530px;
+    padding-right: 20px;
+    padding-left: 10px;
+    border: 0.2px solid #ccc;
+    margin-right: 50px;
+    
+}
+
+aside h4 {
+    color: rgb(101, 99, 99);
+}
+aside ul li {
+    list-style-type: none;
+    color: rgb(108, 108, 108);
+    line-height: 30px;   
+}
+
+#news-left {
+    width: 15%;
+    height: 85%;
+    padding-right: 30px;
+    padding-left: 30px;
+    position: absolute;
+    border: 0.2px solid #ccc;
+    margin-left: 35px;
+
+}
+
+#news-left div h3 {
+    color: rgb(63, 62, 62);
+}
+
+#title-dolar{
+    line-height: 15px;
+    color: rgb(73, 71, 71);
+}
+
+.coin {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 18px;
+}
+
+.coins {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+
+.container{
+    padding-bottom: 25px;
+    border-bottom: 1.5px solid black;
+}
+
+.title-news {
+    font-weight: bold;
+    color: rgb(75, 74, 74);
+}
+
+
+#photo-dep{
+    height:100px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+#asp {
+    font-size:50px ;
+}
+
+.short-news{
+    display: flex;
+    justify-content: space-around;
+}
+
+#footer {
+    background-color: rgba(50, 50, 50, 0.949);
+    text-align: center;
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 2.5px;
+}
+
