@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Media</title>
+</head>
+<body>
+    <script>
+        
+        const nomeAluno = prompt("Digite o nome do aluno");
+        const notaUm = parseFloat(prompt("Digite a primeira nota do aluno"));
+        const notaDois =  parseFloat(prompt("Digite a segunda nota do aluno"));
+        const notaTres = parseFloat(prompt ("Digite a terceira nota do aluno"));
+    
+        const media = (notaUm + notaDois + notaTres) / 3;
+
+        alert(  "Nome do aluno: " + nomeAluno
+                + "\n Primeira nota: " + notaUm 
+                + "\n Segunda nota: " + notaDois
+                + "\n Terceira nota: " + notaTres
+                + "\n Media final: " + media.toFixed(2)                
+            );
+    
+    </script>
+</body>
+</html>

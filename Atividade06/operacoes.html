@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Operadores </title>
+</head>
+<body>
+    <script>
+        
+        const nome = prompt("Digite o seu nome");
+        const primeiroNum = parseFloat(prompt("Por favor, digite o primeiro numero"));
+        const segundoNum = parseFloat(prompt("Por favor, digite o segundo numero"));
+
+    
+        const soma = primeiroNum + segundoNum;
+        const subtracao = primeiroNum - segundoNum;
+        const mult = primeiroNum * segundoNum;
+        const div = primeiroNum / segundoNum;
+        const restoDiv = primeiroNum % segundoNum;
+
+        alert( "Nome: " + nome
+               + "\n Primeiro numero: " + primeiroNum 
+               + "\n Segundo numero: " + segundoNum 
+               + "\n A soma é: " + soma 
+               + "\n A subtracao é: " + subtracao 
+               + "\n A multiplicacao é: " + mult
+               + "\n A divisao é: " + div.toFixed(1)
+               + "\n O resto da divisao é: " + restoDiv.toFixed(2)
+               );
+    
+    </script>
+</body>
+</html>
