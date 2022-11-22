@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Dom</title>
+</head>
+
+<body>
+
+    <form>
+        
+        <div id="principal" width=200 heigth=200 align=center>
+            Nome Completo:
+            <input name="idName" type="text" id="idName" size="52" maxlength="150">
+            <br>
+            <input type="checkbox" id="maicuscula"  checked="checked" onclick="maiuscula();">
+            <label for="maicuscula"> Transformar em maiuscula</label><br>
+            <br>
+            <input type="checkbox" id="minuscula" onclick="minuscula();">
+            <label for="minuscula">Transformar em minuscula</label><br><br><br>
+            <input type="submit" value="Enviar">
+    </form>
+    <script>
+        function maiuscula() {
+
+            const checkbox1 = document.getElementById('maiuscula');
+            const nameCbx1 = document.getElementById("idName").value;
+        
+            document.getElementById("idName").value = nameCbx1.toUpperCase();
+            checkbox1.checked = false;
+        }
+        
+        function minuscula() {
+        
+            const checkbox2 = document.getElementById('maiuscula');
+            const nameCbx2 = document.getElementById("idName").value;
+        
+            document.getElementById("idName").value = nameCbx2.toUpperCase();
+            checkbox2.checked = false;
+            alert(5);
+        }
+    </script>
+</body>
+</html>
